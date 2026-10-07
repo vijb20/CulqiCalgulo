@@ -9,7 +9,21 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android build outputs & logs
+*.apk
+*.aab
+*.log
+
+# Keystores & secrets
+*.jks
+*.keystore
+google-services.json
+
+# OS specific
+Thumbs.db
